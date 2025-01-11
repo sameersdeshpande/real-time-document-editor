@@ -101,7 +101,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Real-Time Document Editor</h1>
+      <h1>Doc Share</h1>
 
       <div className="controls">
         <button onClick={handleBold} style={{ fontWeight: isBold ? 'bold' : 'normal' }}>
@@ -129,7 +129,7 @@ function App() {
         value={text}
         onChange={handleTextChange}
         placeholder="Start typing here..."
-        rows="20"
+        rows="100"
         cols="80"
         style={{
           fontSize: `${fontSize}px`,
